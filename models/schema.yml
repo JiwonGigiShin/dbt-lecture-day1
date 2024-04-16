@@ -15,3 +15,5 @@ models:
     description: cleaning raw sales
   - name: stg_raw_data_circle_dbt__raw_cc_stock
     description: cleaning raw stock
+  - name: int_stock_sales
+    description: combination of stock and sales with selected columns

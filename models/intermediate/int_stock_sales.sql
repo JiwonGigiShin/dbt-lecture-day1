@@ -1,4 +1,10 @@
-SELECT *
+SELECT 
+product_id
+,date_date
+,quantity
+,forecast_stock
+,stock
+,price
 FROM 
 {{ref("stg_raw_data_circle_dbt__raw_cc_sales")}}
 JOIN
