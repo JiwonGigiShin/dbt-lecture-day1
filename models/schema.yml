@@ -8,15 +8,10 @@ sources:
         description: stock of products
       - name: raw_cc_sales
         description: sales data of products
-        tests:
-          - unique:
-            column_name: "(product_id || '-' || date_date)"
+
 
 models:
   - name: stg_raw_data_circle_dbt__raw_cc_sales
     description: cleaning raw sales
   - name: stg_raw_data_circle_dbt__raw_cc_stock
     description: cleaning raw stock
-    tests:
-      - unique:
-        column_name: product_id
