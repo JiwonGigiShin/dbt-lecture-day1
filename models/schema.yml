@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw_data_circle_dbt
+    description: raw data circle sportswear dataset for investigation
+    tables:
+      - name: raw_cc_stock
+        description: stock of products
+      - name: raw_cc_sales
+        description: sales data of products
